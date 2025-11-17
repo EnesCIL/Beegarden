@@ -1,6 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root{
+    --color: #c48e3f;
+    --padding: 2em;
+}
+
 * { 
     box-sizing: border-box; 
     padding: 0;
     margin: 0;
-    font-family: "Oswald";
+    font-family: "Oswald", sans-serif;
 }
+
+/* Header */
+
+ nav{     
+    z-index: 1; /*va permettre de choisir le postionnement  */
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 70%);
+    padding: var(--padding);
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav,ul,#social-media{
+    display: flex;
+    list-style-type: none;
+    font-size: 25px;
+    gap: var(--padding);
+    justify-content: space-between;
+}
+
+#hero-banner {
+    position: relative; /* permet la superposition */
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;      
+}
+
+#hero-banner img.hero-image{
+    object-fit: cover; /* étire l'image */
+    width: 100%;
+    height: 100%;
+}
+
+
+#hero-banner img.hero-overlay {
+    position: absolute; /* positionne l’image au-dessus */      
+    top: 50%;                
+    left: 50%;               
+    transform: translate(-50%, -50%);
+    margin-top: 3%;
+    height: 75%;
+}
+/* Main */

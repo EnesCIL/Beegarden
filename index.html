@@ -12,51 +12,54 @@
     <header>
         <nav>
             <figure>
-            <img src="img/logo-light.png" alt="Logo Revolver Blanc">
+                <img src="img/logo-light.png" alt="Logo Revolver Blanc">
             </figure>
           
             <ul>
-                <li> <a href="#">Home</a> </li>
-                <li> <a href="#">Tradition</a> </li>
-                <li> <a href="#">Service</a> </li>
-                <li> <a href="#">Menu</a> </li>
-                <li> <a href="#">Contact</a> </li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Tradition</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
 
-            <div id="reseaux">
+            <div id="social-media">
                 <a href="#"><i class="fa-brands fa-twitter"></i></a>
                 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
             </div>
         </nav>
 
-        <figure id="img-dessus">
+        <figure id="hero-banner">
             <!-- afficher une image en css div figure image
             div image de fond css  --> 
-            <img class = "image-base" src="img/h5-revolution-img-1.jpg" alt="comptoire de bar avec des bouteilles accroché au mur">
-            <img class = "image-parDessus" src="img/h5-slider-graphic.png" alt="Logo Central du Beer Garden">
+            <img class="hero-image" src="img/h5-revolution-img-1.jpg" alt="comptoire de bar avec des bouteilles accroché au mur">
+            <img class="hero-overlay" src="img/h5-slider-graphic.png" alt="Logo Central du Beer Garden">
         </figure>
     </header>
-    <main>
-        <section> <h1> "LOVE AND MAGIC HAVE A GREAT DEAL IN COMMON. THEY ENRICH THE SOUL, DELIGHT THE HEART. AND THEY BOTH TAKE PRACTICE."</h1> </section>
 
-        <section id="section2">
+    <main>
+        <section id="intro-quote">
+            <blockquote>LOVE AND MAGIC HAVE A GREAT DEAL IN COMMON. THEY ENRICH THE SOUL, DELIGHT THE HEART. AND THEY BOTH TAKE PRACTICE.</blockquote>
+        </section>
+
+        <section id="beer-tradition">
             <article>
                 <h2>Beer Tradition</h2>
                 <h3>Tons of shortcodes provides countless options</h3>
                 <p>Edge Themes give you everything you need to create an amazing website. Designed and built with care, filled with creative elements and completely user-friendly. Set up you website quickly and with ease. From image galleries to various iteractive fearures you can mix and match all elements </p>
                 <div>
-                    <a href="#" >READ MORE</a>
+                    <a href="#">READ MORE</a>
                 </div>
             </article>
 
-            <figure id="img-dessus2">
-                <img class = "image-base2" src="img/h5-el-holder-img-1-1.jpg" alt="Chaise d'un bar devant le comptoire">          
-                <img class = "image-parDessus2" src="img/h5-holder-image-1.png" alt="Dessin d'un tonneau de bière, écrit : Meilleur bière de Tradition pour vous' ">
+            <figure class="image-overlay-block">
+                <img class="base-img" src="img/h5-el-holder-img-1-1.jpg" alt="Chaise d'un bar devant le comptoire">          
+                <img class="overlay-img" src="img/h5-holder-image-1.png" alt="Dessin d'un tonneau de bière, écrit : Meilleur bière de Tradition pour vous' ">
             </figure>
-            <figure id="img-dessus3">    
-                <img class = "image-base3" src="img/h5-el-holder-img-2.jpg" alt="photo d'un bar"> 
-                <img class = "image-parDessus3" src="img/h5-holder-image-2.png" alt="Dessin d'une verre de bière, écrit : Boire de la bière est une bonne raison de retrouver des amis">
+            <figure class="image-overlay-block">    
+                <img class="base-img" src="img/h5-el-holder-img-2.jpg" alt="photo d'un bar"> 
+                <img class="overlay-img" src="img/h5-holder-image-2.png" alt="Dessin d'une verre de bière, écrit : Boire de la bière est une bonne raison de retrouver des amis">
             </figure>
         
             <article>
@@ -69,30 +72,30 @@
             </article>
         </section>
 
-        <section id="section3">
+        <section id="gallery">
             <figure>
-                <div class="img">
-                <img src="img/h5-gallery-img-1-477x477.jpg" alt="Photo d'un bar">
-                    <div class = "plus">
-                        <i class="fas fa-plus"></i>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="img/h5-gallery-img-1-477x477.jpg" alt="Photo d'un bar">
+                        <div class="plus"><i class="fas fa-plus"></i></div>
                     </div>
-                <img src="img/h5-gallery-img-2-477x477.jpg" alt="Plusieurs personnes qui trinque une bière">
-                    <div class = "plus">
-                        <i class="fas fa-plus"></i>
+                    <div class="gallery-item">
+                        <img src="img/h5-gallery-img-2-477x477.jpg" alt="Plusieurs personnes qui trinque une bière">
+                        <div class="plus"><i class="fas fa-plus"></i></div>
                     </div>
-                <img src="img/h5-gallery-img-3-477x477.jpg" alt="Comptoire d'un bar">
-                    <div class = "plus">
-                        <i class="fas fa-plus"></i>
+                    <div class="gallery-item">
+                        <img src="img/h5-gallery-img-3-477x477.jpg" alt="Comptoire d'un bar">
+                        <div class="plus"><i class="fas fa-plus"></i></div>
                     </div>
-                <img src="img/h5-gallery-img-4-477x477.jpg" alt="Des personne assis en table souriant">
-                    <div class = "plus">
-                        <i class="fas fa-plus"></i>
+                    <div class="gallery-item">
+                        <img src="img/h5-gallery-img-4-477x477.jpg" alt="Des personne assis en table souriant">
+                        <div class="plus"><i class="fas fa-plus"></i></div>
                     </div>
-                </div>   
+                </div>
             </figure>
         </section>
         
-        <section id="section4">
+        <section id="features">
             <article>
                 <figure>
                     <img src="img/h5-icon-1.png" alt="Icone qui represante le dessin d'une pomme pain">
@@ -123,7 +126,7 @@
             </article>  
         </section>
 
-        <section id="section5">
+        <section id="offer-section">
             <figure>
                 <img src="img/h5-parallax-img-2.jpg" alt="Image de tirreuse a bière">
             </figure>
@@ -133,13 +136,14 @@
 
         <section id="map">
             <figure>
-            <img src="img/h1-pin.png" alt="point du lieu">
+                <img src="img/h1-pin.png" alt="point du lieu">
             </figure>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d17476.90505422338!2d7.760489114088633!3d48.57196593569048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1763130516119!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
         </section>
     </main>
 
-    <footer><img src="img/footer-logo.png" alt="Logo Revolver Blanc"></footer>
-
+    <footer>
+        <img src="img/footer-logo.png" alt="Logo Revolver Blanc">
+    </footer>
 </body>
 </html>
