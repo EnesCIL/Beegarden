@@ -5,7 +5,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" >
-    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style.css">
     <title>Beegarden</title>
 </head>
 <body>
@@ -15,70 +15,84 @@
             <img src="img/logo-light.png" alt="Logo Revolver Blanc">
             </figure>
           
-        <ul>
-            <li> <a href="#">Home</a> </li>
-            <li> <a href="#">Tradition</a> </li>
-            <li> <a href="#">Service</a> </li>
-            <li> <a href="#">Menu</a> </li>
-            <li> <a href="#">Contact</a> </li>
-        </ul>
+            <ul>
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#">Tradition</a> </li>
+                <li> <a href="#">Service</a> </li>
+                <li> <a href="#">Menu</a> </li>
+                <li> <a href="#">Contact</a> </li>
+            </ul>
 
-        
-        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        
+            <div id="reseaux">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
         </nav>
 
-        <figure>
+        <figure id="img-dessus">
             <!-- afficher une image en css div figure image
             div image de fond css  --> 
-            <img src="img/h5-revolution-img-1.jpg" alt="comptoire de bar avec des bouteilles accroché au mur">
-            <img src="img/h5-slider-graphic.png" alt="Logo Central du Beer Garden">
+            <img class = "image-base" src="img/h5-revolution-img-1.jpg" alt="comptoire de bar avec des bouteilles accroché au mur">
+            <img class = "image-parDessus" src="img/h5-slider-graphic.png" alt="Logo Central du Beer Garden">
         </figure>
     </header>
     <main>
         <section> <h1> "LOVE AND MAGIC HAVE A GREAT DEAL IN COMMON. THEY ENRICH THE SOUL, DELIGHT THE HEART. AND THEY BOTH TAKE PRACTICE."</h1> </section>
 
-        <section>
+        <section id="section2">
             <article>
                 <h2>Beer Tradition</h2>
                 <h3>Tons of shortcodes provides countless options</h3>
                 <p>Edge Themes give you everything you need to create an amazing website. Designed and built with care, filled with creative elements and completely user-friendly. Set up you website quickly and with ease. From image galleries to various iteractive fearures you can mix and match all elements </p>
-                <a href="#">READ MORE</a>
+                <div>
+                    <a href="#" >READ MORE</a>
+                </div>
             </article>
 
-            <figure>
-                <img src="img/h5-el-holder-img-1-1.jpg" alt="Chaise d'un bar devant le comptoire">          
-                <img src="img/h5-holder-image-1.png" alt="Dessin d'un tonneau de bière, écrit : Meilleur bière de Tradition pour vous' ">
+            <figure id="img-dessus2">
+                <img class = "image-base2" src="img/h5-el-holder-img-1-1.jpg" alt="Chaise d'un bar devant le comptoire">          
+                <img class = "image-parDessus2" src="img/h5-holder-image-1.png" alt="Dessin d'un tonneau de bière, écrit : Meilleur bière de Tradition pour vous' ">
             </figure>
-            <figure>    
-                <img src="img/h5-el-holder-img-2.jpg" alt="photo d'un bar"> 
-                <img src="img/h5-holder-image-2.png" alt="Dessin d'une verre de bière, écrit : Boire de la bière est une bonne raison de retrouver des amis">
+            <figure id="img-dessus3">    
+                <img class = "image-base3" src="img/h5-el-holder-img-2.jpg" alt="photo d'un bar"> 
+                <img class = "image-parDessus3" src="img/h5-holder-image-2.png" alt="Dessin d'une verre de bière, écrit : Boire de la bière est une bonne raison de retrouver des amis">
             </figure>
         
             <article>
                 <h2>BEER TRADITION</h2>
                 <h3>Tons of shortcodes provide countless options</h3>
                 <p>Edge Themes give you everything you need to create an amazing website. Designed and built with care, filled with creative elements and completely user-friendly. Set up you website quickly and with ease. From image galleries to various iteractive fearures you can mix and match all elements</p>
-                <a href="#" >READ MORE</a>
+                <div>
+                    <a href="#" >READ MORE</a>
+                </div>
             </article>
         </section>
 
-        <section>
+        <section id="section3">
             <figure>
+                <div class="img">
                 <img src="img/h5-gallery-img-1-477x477.jpg" alt="Photo d'un bar">
-                    <i class="fas fa-plus"></i>
+                    <div class = "plus">
+                        <i class="fas fa-plus"></i>
+                    </div>
                 <img src="img/h5-gallery-img-2-477x477.jpg" alt="Plusieurs personnes qui trinque une bière">
-                    <i class="fas fa-plus"></i>
+                    <div class = "plus">
+                        <i class="fas fa-plus"></i>
+                    </div>
                 <img src="img/h5-gallery-img-3-477x477.jpg" alt="Comptoire d'un bar">
-                    <i class="fas fa-plus"></i>
+                    <div class = "plus">
+                        <i class="fas fa-plus"></i>
+                    </div>
                 <img src="img/h5-gallery-img-4-477x477.jpg" alt="Des personne assis en table souriant">
-                    <i class="fas fa-plus"></i>
+                    <div class = "plus">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>   
             </figure>
         </section>
         
-        <section>
+        <section id="section4">
             <article>
                 <figure>
                     <img src="img/h5-icon-1.png" alt="Icone qui represante le dessin d'une pomme pain">
@@ -109,7 +123,7 @@
             </article>  
         </section>
 
-        <section>
+        <section id="section5">
             <figure>
                 <img src="img/h5-parallax-img-2.jpg" alt="Image de tirreuse a bière">
             </figure>
@@ -117,7 +131,7 @@
             <p>Lorem Ipsum Dolor Sit Amet, consectetur Elit. Etiam Fermentum Nulla Tincidunt Amet Malesuada</p>
         </section>
 
-        <section>
+        <section id="map">
             <figure>
             <img src="img/h1-pin.png" alt="point du lieu">
             </figure>
