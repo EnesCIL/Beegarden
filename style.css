@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
     --color: #c48e3f;
@@ -106,10 +107,9 @@ nav,ul,#social-media{
    font-size: 1.5em;
 }
 
-
-
 #beer-tradition article, #beer-tradition figure{
     width: 50%;
+
 }
 
 #beer-tradition figure{
@@ -118,7 +118,7 @@ nav,ul,#social-media{
    
 }
 
-#beer-tradition figure img.overlay {
+#beer-tradition figure img.base-img {
     object-fit: cover; 
     width: 100%;
     height: 100%;
@@ -129,14 +129,133 @@ nav,ul,#social-media{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+}
+
+#gallery .gallery-grid{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    /* position: absolute; */
     
 }
- 
-#offer-section figure img{
+
+#gallery figure .gallery-item img{
+    object-fit: cover; 
     width: 100%;
+    height: 100%;
+
 }
+
+#gallery .gallery-item .plus{
+    position: relative;
+    top: -55%;
+    left: 45%;
+    transition: 0.5s;
+    /* opacity: 0; */
+}
+
+
+#gallery .plus{
+    color: white;
+    font-size: 30px;
+    /* transform: rotateZ(90deg); */
+}
+
+.gallery-grid:hover  .gallery-item:hover {
+    transform: scale(1.1);
+    filter: grayscale(1);
+
+
+}
+
+.plus:hover{
+    transform: rotateX(90deg);
+    opacity: 1;
+}
+
+
+
+
+
+#features {
+    display: flex;
+    padding: 4% 15%;
+    text-align: center;
+    justify-content: center;
+
+}
+
+#features article{
+    padding: 2em;
+}
+
+#features img{
+    margin-bottom: var(--padding);
+}
+
+/* #offer-section{
+    position: relative; 
+
+} */
+
+#offer-section figure{
+    background-image: url("img/h5-parallax-img-2.jpg");
+    width: 100%;
+    height:300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#offer-section h2{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-size: 3em;
+
+}
+
+#offer-section p{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    
+    
+}
+
+
+
+#map iframe{
+
+    width: 100%;
+    position: absolute; 
+}
+
+
+
+#map figure  {
+    /* z-index: 2; */
+    position: relative;
+    left: 50%;
+    top:50%;
+    width:15px
  
-   
- 
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: var(--padding);
+}
+/* img{
+    vertical-align: top;
+}
+  */
 
