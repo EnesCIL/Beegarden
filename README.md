@@ -7,15 +7,25 @@ Le site présente un bar fictif nommé BeeGarden, avec une ambiance naturelle et
 Les notions abordées :
 
 ✅ Sémantique HTML5
+
 ✅ Utilisation des div, class, id
+
 ✅ Mise en page avec Flexbox (display:flex, flex-wrap)
+
 ✅ Positions CSS (relative, absolute, fixed)
+
 ✅ Transformations CSS (translate, rotateZ, scale, transform-origin)
+
 ✅ Transitions CSS
+
 ✅ Effets visuels (overflow:hidden, opacity, sepia)
+
 ✅ Effet parallax en background
+
 ✅ Utilisation de Google Fonts
+
 ✅ Utilisation des icônes Font Awesome
+
 ✅ Responsive design (media queries)
 
 ---
