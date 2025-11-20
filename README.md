@@ -1,7 +1,5 @@
-⬇️
-
-🍺 Projet de Formation – Site Vitrine BeeGarden (HTML5 & CSS3)
-📝 Description
+# 🍺 Projet de Formation – Site Vitrine BeeGarden (HTML5 & CSS3)
+## 📝 Description
 
 Ce projet a été réalisé dans le cadre d’une formation afin d’apprendre à structurer et styliser une page web en HTML5 et CSS3.
 Le site présente un bar fictif nommé BeeGarden, avec une ambiance naturelle et moderne.
@@ -20,7 +18,9 @@ Les notions abordées :
 ✅ Utilisation des icônes Font Awesome
 ✅ Responsive design (media queries)
 
-🎯 Objectifs pédagogiques
+---
+
+## 🎯 Objectifs pédagogiques
 
 - Structurer correctement une page HTML en respectant la sémantique
 
@@ -42,12 +42,12 @@ Les notions abordées :
 
 - Rendre le site lisible sur tous les écrans
 
-⚙️ Prérequis
+## ⚙️ Prérequis
 
 Aucun prérequis nécessaire.
 Quelques notions en HTML/CSS sont un plus.
 
-📁 Structure du projet
+## 📁 Structure du projet
 /beegarden
 │
 ├── index.html          # Page d’accueil
@@ -71,12 +71,12 @@ git clone https://github.com/ton-repo/beegarden
 Ouvrir le fichier index.html dans un navigateur web ou un éditeur de code.
 
 📚 Concepts abordés
-🔹 ** 1. Sémantique HTML5 **
+🔹 **1. Sémantique HTML5**
 
 Utilisation de : header, nav, main, section, article, footer, etc.
 Permet une structure claire et optimisée pour l’accessibilité.
 
-🔹** 2. Classes & Identifiants **
+🔹**2. Classes & Identifiants**
 
 Utilisation de :
 
@@ -84,9 +84,9 @@ Utilisation de :
 
 - class="" pour styliser plusieurs éléments
 
--id="" pour cibler un élément unique
+- id="" pour cibler un élément unique
 
-🔹** 3. Flexbox **
+🔹**3. Flexbox**
 
 Mise en page réalisée avec :
 
@@ -98,7 +98,7 @@ Mise en page réalisée avec :
 
 - align-items
 
-🔹** 4. Positions CSS **
+🔹**4. Positions CSS**
 
 Pratique des positions :
 
@@ -110,7 +110,7 @@ Pratique des positions :
 
 - Pour créer des overlays, des éléments fixes, etc.
 
-🔹 ** 5. Transformations CSS **
+🔹 **5. Transformations CSS**
 
 Transformations utilisées :
 
@@ -122,7 +122,7 @@ Transformations utilisées :
 
 - transform-origin
 
-🔹** 6. Transitions **
+🔹**6. Transitions**
 
 Mise en place de transitions pour :
 
@@ -132,7 +132,7 @@ Mise en place de transitions pour :
 
 - animations légères
 
-🔹 ** 7. Effets visuels & Filtres **
+🔹 **7. Effets visuels & Filtres**
 
 - overflow: hidden pour masquer les débordements
 
@@ -140,20 +140,20 @@ Mise en place de transitions pour :
 
 - filter: sepia() pour un effet vintage
 
-🔹 ** 8. Effet Parallax **
+🔹 **8. Effet Parallax**
 
 - Arrière-plan fixe ou défilant à vitesse différenciée :
 
 - background-attachment: fixed
 
-🔹** 9. Google Fonts **
+🔹**9. Google Fonts**
 
 - Integration de polices personnalisées via :
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-🔹 ** 10. Font Awesome ** 
+🔹 **10. Font Awesome** 
 
 - Utilisation d’icônes pour :
 
@@ -163,7 +163,7 @@ Mise en place de transitions pour :
 
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" >
 
-📄 ** Licence **
+📄 **Licence**
 
 Ce projet est sous licence MIT.
 Vous pouvez l’utiliser, le modifier ou le redistribuer librement.
