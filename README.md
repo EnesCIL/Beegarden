@@ -60,15 +60,25 @@ Quelques notions en HTML/CSS sont un plus.
 ## 📁 Structure du projet
 /beegarden
 │
+
 ├── index.html          # Page d’accueil
+
 ├── menu.html           # Page de la carte
+
 ├── contact.html        # Page de contact
+
 │
+
 ├── /assets
+
 │     ├── /images       # Images, backgrounds, parallax
+
 │     └── /css
+
 │          └── style.css  # Fichier CSS principal
+
 │
+
 └── README.md           # Ce fichier
 
 🚀 Installation & Lancement
@@ -81,6 +91,7 @@ git clone https://github.com/ton-repo/beegarden
 Ouvrir le fichier index.html dans un navigateur web ou un éditeur de code.
 
 📚 Concepts abordés
+
 🔹 **1. Sémantique HTML5**
 
 Utilisation de : header, nav, main, section, article, footer, etc.
