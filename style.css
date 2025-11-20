@@ -152,35 +152,33 @@ nav,ul,#social-media{
     object-fit: cover; 
     width: 100%;
     height: 100%;
-
 }
 
 #gallery .gallery-item .plus{
     position: relative;
     top: -55%;
     left: 45%;
-    transition: 0.5s;
-    /* opacity: 0; */
+  
 }
 
 
-#gallery .plus{
-    color: white;
+
+.gallery-grid .gallery-item .plus i{
+    color: #FFFFFF00;
     font-size: 30px;
-    /* transform: rotateZ(90deg); */
+    transform-origin: center;
+    transition: 0.5s;   
 }
 
-.gallery-grid:hover  .gallery-item:hover {
+.gallery-grid:hover .gallery-item:hover  {
     transform: scale(1.1);
-    filter: grayscale(1);
+    filter: sepia(1.1);
+    .plus i{
+        transform: rotateZ(90deg) scale(1);
+        color: #ffffffff;
+    }
 
-
-}
-
-.plus:hover{
-    transform: rotateX(90deg);
-    opacity: 1;
-}
+} 
 
 
 
@@ -194,6 +192,18 @@ nav,ul,#social-media{
 
 }
 
+#features article:hover figure img {
+    filter: sepia(100%);
+}
+ 
+#features article:hover h3 {
+    color: #c48e3f;
+}
+
+
+
+
+
 #features article{
     padding: 2em;
 }
@@ -201,11 +211,6 @@ nav,ul,#social-media{
 #features img{
     margin-bottom: var(--padding);
 }
-
-/* #offer-section{
-    position: relative; 
-
-} */
 
 #offer-section {
     background-image: url("img/h5-parallax-img-2.jpg");
@@ -276,8 +281,126 @@ footer{
     height: auto;
     padding: var(--padding);
 }
-/* img{
-    vertical-align: top;
-}
-  */
 
+@media only screen and (max-width : 320px) {
+
+    
+    nav{
+        width: 100%;
+        height: auto;
+        display: block;
+        font-size: smaller;
+    }
+
+    nav figure img{
+        width: 30%;
+        height: auto;
+        margin-left: 35%;
+    }
+
+    nav ul,li,#social-media{
+        font-size: 0.9rem;
+    }
+    #social-media{
+        justify-content: center;
+        margin-left: 10%;
+    }
+
+    header #hero-banner{
+        width: 100%;
+        height: auto;
+        
+    }
+
+    #intro-quote{
+        font-size: 1rem;
+    }
+
+    #beer-tradition article{
+        width: 100%;
+        height: auto;
+        font-size: 0.7rem;
+    }
+
+
+    #beer-tradition figure{
+        width: 100%;
+        height: auto;
+    }
+
+    #beer-tradition figure img{
+        width: 50%;
+    }
+    
+    #gallery .gallery-grid {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+    .plus,i {
+        display: none;
+      
+    }
+    
+    #features{
+        font-size: 1rem;
+        flex-wrap: wrap;
+    
+    }
+   
+    #features figure img{
+        width: 50%;
+    }
+
+    #offer-section{
+        width: 100%;
+      
+    }
+
+
+    footer{
+       font-size: xx-small;
+    }
+
+}
+/* @media (hover: none) and (pointer: coarse) {
+    article:hover figure img {
+        filter: none;
+    }
+    article:hover h3 {
+        color: inherit;
+    }
+}    */
+    @media only screen and (min-width : 321px) and (max-width : 1024px) {
+        
+        nav ul,li,#social-media{
+            font-size: 1.3rem;
+            height: auto;
+        }
+        
+        nav figure img{
+            width: 100%;
+        }
+        
+        #gallery .gallery-grid{
+            width:100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #gallery .gallery-item {
+            width: 50%;
+        }
+
+        .plus,i {
+            display: none;
+        }
+        figure:hover img {
+            filter: none;
+        }
+        figure:hover h3 {
+            color: inherit;
+        } 
+       
+
+}
