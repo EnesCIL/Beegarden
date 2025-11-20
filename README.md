@@ -69,11 +69,11 @@ Quelques notions en HTML/CSS sont un plus.
 
 │
 
-├── /assets
+├────────  /assets
 
-│     ├── /images       # Images, backgrounds, parallax
+│          ├── /images       # Images, backgrounds, parallax
 
-│     └── /css
+│          └── /css
 
 │          └── style.css  # Fichier CSS principal
 
